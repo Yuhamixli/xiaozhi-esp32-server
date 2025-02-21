@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="nav-item" :class="{ active: $route.path === '/' }" @click="switchTab('/')">小智 AI</div>
+    <div class="nav-item" :class="{ active: $route.path === '/' }" @click="switchTab('/')">小诺 AI</div>
     <nav class="nav">
       <div class="nav-item" :class="{ active: $route.path === '/panel' }" @click="switchTab('/panel')">
         <i class="icon-device"></i> 设备管理

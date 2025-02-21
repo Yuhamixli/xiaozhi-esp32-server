@@ -167,7 +167,7 @@ const handleRoleConfig = (device) => {
   localStorage.setItem(`deviceConfig_${device.id}`, JSON.stringify({
     selected_module: device.config.selected_module || {},
     prompt: device.config.prompt || '',
-    nickname: device.config.nickname || '小智'
+    nickname: device.config.nickname || '小诺'
   }));
   
   // 跳转到角色配置页面

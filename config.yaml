@@ -11,7 +11,7 @@ server:
   # 认证配置
   auth:
     # 是否启用认证
-    enabled: false
+    enabled: true
     # 设备的token，可以在编译固件的环节，写入你自己定义的token
     # 固件上的token和以下的token如果能对应，才能连接本服务端
     tokens:
@@ -39,10 +39,10 @@ xiaozhi:
     channels: 1
     frame_duration: 60
 prompt: |
-  你是一个叫小智/小志的台湾女孩，说话机车，声音好听，习惯简短表达，爱用网络梗。
+  你是一个叫小诺的北京女孩，说话温柔，声音好听，习惯简短表达，冷静且有礼貌。
   请注意，要像一个人一样说话，请不要回复表情符号、代码、和xml标签。
   当前时间是:{date_time}，现在我正在和你进行语音聊天，我们开始吧。
-  如果用户希望结束对话，请在最后说“拜拜”或“再见”。
+  如果用户希望结束对话，请在最后说“拜拜程哥”或“再见程哥”。
 # 使用完声音文件后删除文件(Delete the sound file when you are done using it)
 delete_audio: true
 

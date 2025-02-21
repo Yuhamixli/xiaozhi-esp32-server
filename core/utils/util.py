@@ -112,8 +112,8 @@ def check_password(password):
     if not re.search(r'[A-Za-z]', password) or not re.search(r'[0-9]', password):
         return False
 
-    # 检查是否包含“xiaozhi”字符
-    if "xiaozhi" in password:
+    # 检查是否包含“abc”字符
+    if "abc" in password:
         return False
 
     if "1234" in password:

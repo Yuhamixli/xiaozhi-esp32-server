@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     dialogue = []
     dialogue.append({"role": "system", "content": config.get("prompt")})
-    dialogue.append({"role": "user", "content": "你好小智"})
+    dialogue.append({"role": "user", "content": "你好小诺"})
     llm_responses = llm.response("test", dialogue)
     response_message = []
     first_text = None

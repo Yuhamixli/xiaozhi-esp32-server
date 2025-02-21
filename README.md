@@ -1,3 +1,6 @@
+# 2025-02-21 尝试本地化，起名为小诺。
+
+
 ![图片](docs/images/banner.png)
 
 # 小智 ESP-32 后端服务(xiaozhi-esp32-server)

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="copyright">© 2025 小智 AI 管理后台</div>
+    <div class="copyright">© 2025 航空工业财务公司程小诺 AI 管理后台</div>
   </footer>
 </template>
 

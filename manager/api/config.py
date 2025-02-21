@@ -116,7 +116,7 @@ class ConfigHandler:
             success = await private_config.update_config(
                 config.get('selected_module'),
                 config.get('prompt'),
-                config.get('nickname', '小智')
+                config.get('nickname', '小诺')
             )
             
 

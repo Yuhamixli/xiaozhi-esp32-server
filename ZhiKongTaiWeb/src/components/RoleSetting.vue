@@ -16,7 +16,7 @@
       <div class="form-section">
         <div class="form-group">
           <label>助手昵称</label>
-          <input type="text" v-model="nickname" placeholder="小智" class="form-input" />
+          <input type="text" v-model="nickname" placeholder="小诺" class="form-input" />
         </div>
 
         <div class="form-group">
@@ -117,7 +117,7 @@ const route = useRoute();
 const deviceId = ref(route.params.deviceId);
 
 const roleTemplates = RoleTemplates.getTemplates();
-const nickname = ref('小智');
+const nickname = ref('小诺');
 const selectedTemplate = ref('');
 const selectedVoice = ref('qingchun');
 const roleDescription = ref('');
@@ -239,7 +239,7 @@ const loadDeviceConfig = async () => {
         ASR: ''
       };
       roleDescription.value = config.prompt || '';
-      nickname.value = config.nickname || '小智';
+      nickname.value = config.nickname || '小诺';
       return; // 如果找到本地配置就直接返回
     }
 
@@ -256,7 +256,7 @@ const loadDeviceConfig = async () => {
           ASR: ''
         };
         roleDescription.value = deviceConfig.config.prompt || '';
-        nickname.value = deviceConfig.config.nickname || '小智';
+        nickname.value = deviceConfig.config.nickname || '小诺';
         
         // 保存到 localStorage
         localStorage.setItem(`deviceConfig_${deviceId.value}`, JSON.stringify({

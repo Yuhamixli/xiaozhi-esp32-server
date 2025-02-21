@@ -34,7 +34,7 @@ if __name__ == "__main__":
     )
     tts.output_file = get_project_dir() + tts.output_file
     start = datetime.now()
-    file_path = tts.to_tts("你好，测试,我是人工智能小智")
+    file_path = tts.to_tts("你好，测试,我是程老师的小诺")
     print("语音合成耗时：" + str(datetime.now() - start))
     start = datetime.now()
     tts.wav_to_opus_data(file_path)

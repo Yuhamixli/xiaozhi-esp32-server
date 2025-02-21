@@ -60,7 +60,7 @@ const props = defineProps({
 });
 
 const deviceRole = computed(() => {
-  return props.deviceConfig?.nickname || '小智';
+  return props.deviceConfig?.nickname || '小诺';
 });
 
 // Store device config when it changes
@@ -88,7 +88,7 @@ const handleConfigure = () => {
     localStorage.setItem(`deviceConfig_${props.deviceId}`, JSON.stringify({
       selected_module: props.selectedModules,
       prompt: props.deviceConfig.prompt || '',
-      nickname: props.deviceConfig.nickname || '小智'
+      nickname: props.deviceConfig.nickname || '小诺'
     }));
   }
   emit('configure');
